@@ -1,0 +1,47 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  font-family: inherit;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin: 5px;
+}
+
+.right-nav > ul > li {
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.right-nav > ul > li:last-of-type {
+  font-size: 20px;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: gray;
+}
+
+.left-nav span {
+  // padding: 0 0 10px 0;
+}
+.left-nav i {
+  // padding: 0 0 0 20px;
+}
+
+
+.right-nav i {
+  // padding: 0 10px;
+}
